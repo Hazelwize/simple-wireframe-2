@@ -1,0 +1,315 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html{
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Oswald', sans-serif;
+
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  height: 55px;
+  background: RGB(102,118,138);
+}
+nav{
+  height: 100px;
+  
+  
+}
+nav ul{
+  float: left;
+  width: 33.3333%;
+}
+li{
+  
+  margin: 25px 0 0 25px; 
+  line-height: 55px;
+  font-size: 1.8rem;
+  float: left;
+}
+.main-logo{
+  float: left;
+  width: 33.3333%;
+  display: block;
+  text-align: center;
+  padding-top: 25px;
+}
+.donate{
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 5%;
+  height: 20px;
+  font-weight: bold;
+  display: block;
+  float: right;
+  padding: 15px 25px 35px 15px;
+  border-radius: 5px;
+  background: white;
+  color:rgb(102,118,138); 
+  margin: 40px 30px 0 0;
+  text-align: right;
+  line-height: 20px;
+}
+a{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+.block-1{
+  height: 600px;
+  background: RGB(102,118,138);
+}
+h1{
+  padding: 100px 0 100px 0;
+  font-size: 10rem;
+  text-align: center;
+  color: white;
+  
+}
+.block-1 p{
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  padding: 0 15% 0 15%;
+  line-height: 4.5rem;
+}
+.video{
+  display: block;
+  font-size: 2rem;
+  text-align: center;
+  margin: 50px 0;
+}
+.video img{
+  position: relative; 
+  top: 15px;
+  right: 5px;
+}
+p.example{
+
+  color:#414252;
+  font-size: 1.8rem;
+  font-style: italic;
+  
+}
+
+.block-2{
+  height: 500px;
+}
+h3{
+  margin-top: 150px;
+  font-size: 6rem;
+  text-align: center;
+  color:rgb(22,31,42);
+}
+.block-2 p{
+  font-size: 3rem;
+  color: RGB(22,31,42);
+  line-height: 5.5rem;
+  text-align: center;
+  padding: 25px 30%;
+}
+.block-3{
+  height: 700px;
+  background:rgb(219,223,226);
+  padding: 0 15%;
+}
+.split-box{
+  width: 50%;
+  float: left;
+  padding: 100px 20px;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+.split-box h4{
+  margin: 20px 0;
+  font-size: 3rem;
+}
+
+.split-box a{
+  color:rgb(22,31,42); 
+  margin: 30px 30% 10px 30%;
+  display: block;
+  border: 2px solid #9FA0A0;
+  padding: 20px 30px;
+}
+.block-4{
+  height: 700px;
+  color: rgb(22,31,42);
+  padding: 20px 30%;
+}
+.block-4 h3{
+  font-size: 6rem;
+  text-align: center;
+  margin: 150px 0 50px 0;
+}
+.block-4 p{
+  font-size: 2rem;
+  text-align: center;
+  margin: 30px;
+  line-height: 3rem
+}
+.block-4 a{
+  border: 1px solid #9FA0A0;
+  padding: 30px 0;
+  text-align: center;
+  margin: 15px 35%;
+  width: 30%;
+  color: rgb(22,31,42);
+  display: block;
+}
+
+footer {
+  height: 450px;
+  padding: 30px;
+  background: rgb(22,31,42);
+}
+
+a.social{
+  display: block;
+  background: url(../assets/social.png) 0 0 no-repeat;
+  height: 44px;
+  width: 44px;
+  margin: 15px;
+  float: left;
+}
+a.icon-2{
+  background-position: 50% 0;
+}
+a.icon-3{
+  background-position: 100% 0;
+  width: 50px;
+}
+.footer-links{
+  float: left;
+  color: white;
+  width: 13%;
+  height: 250px;
+  
+  
+}
+.footer-links ul{
+  text-align: left;
+  
+}
+.contact-info{
+  color: white;
+  font-size: 2rem;
+  float: right;
+  text-align: right;
+  width: 77%;
+  line-height: 3rem;
+  padding-top: 75px;
+  
+}
+.miniMenu{
+  width: 75%;
+  float: left;
+}
+h6{
+  font-size: 2rem;
+  color: #637387;
+  padding-top: 10px;
+}
+.miniMenu li{
+  margin-top: -10px;
+}
+
+.legal{
+  color: white;
+  font-size: 1.8rem;
+  margin-top: 100px;
+  padding: 20px 30px;
+  height: 100px;
+  float: left;
+  border-top: 1px solid white;
+  width: 100%;
+}
+.legal img{
+  float: right;
+  display: block;
+  position: relative;
+  bottom: 35px;
+  width: 35px;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
